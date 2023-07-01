@@ -4,9 +4,9 @@
 
 ### Fan pins:
 
-Fan0 - Part Cooler
-Fan2 - Hot End Fan
-Fan1 - Mainboard
+* Fan0 - Part Cooler
+* Fan2 - Hot End Fan
+* Fan1 - Mainboard
 
 ## Firmware Generation
 
