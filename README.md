@@ -1,5 +1,7 @@
 # Ender3
 
+OG Ender 3 running SKR Mini E3 V3 and a Raspberry Pi 3 B+ with Mainsail OS.
+
 ## SKR Mini E3 V3 Notes
 
 ### Fan pins:
