@@ -1,5 +1,13 @@
 # Ender3
 
+## SKR Mini E3 V3 Notes
+
+### Fan pins:
+
+Fan0 - Part Cooler
+Fan2 - Hot End Fan
+Fan1 - Mainboard
+
 ## Firmware Generation
 
 * `cd ~/klipper`
