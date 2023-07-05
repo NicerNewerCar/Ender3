@@ -23,18 +23,6 @@ OG Ender 3 running SKR Mini E3 V3 and a Raspberry Pi 3 B+ with Mainsail OS.
 
 ## Trouble Shooting + Tips & Tricks
 
-### E-Steps Calib
-
-* Preheat to 210 for PLA
-* Messure 100 mm of filament
-* Issue `M83` - puts the extruder in relative mode
-* Issue `G1 E100 F100` - Slowly extrudes 100mm of filament over 1 min (change `E100` for dif lengths)
-* Messure/calculate what was accutally extruded.
-* Calculate the new `rotation_distance` with the following formula:
-    * `rotation_distance = <prev rotation_distance> * <acutal length extruded> / <requested length>`
-* Update the `rotation_distance` parameter under the `[extruder]` section
-* Repeat until the extruder is extruding exactly 100mm
-
 ### `mcu` unable to connect
 
 * `ls /dev/serial/by-id/*`
