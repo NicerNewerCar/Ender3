@@ -19,4 +19,13 @@ OG Ender 3 running SKR Mini E3 V3 and a Raspberry Pi 3 B+ with Mainsail OS.
     * Ensure USB communication
     * Save it with `q`
 * `make`
-* On host: `scp pi@ender3:~/klipper/out/klipper.bin /local/on/host/firmware.bin` 
+* On host: `scp pi@ender3:~/klipper/out/klipper.bin /local/on/host/firmware.bin`
+
+## Trouble Shooting
+
+
+### `mcu` unable to connect
+
+* `ls /dev/serial/by-id/*`
+* Copy the returned result
+* Edit the `[mcu]` section of the `printer.cfg` file.   
